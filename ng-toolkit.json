@@ -16,5 +16,16 @@
     "skipServer": false,
     "skipUniversal": false,
     "webpack": true
+  },
+  "serverless": {
+    "project": "angular-seo-serverless",
+    "provider": "aws",
+    "skipInstall": false,
+    "directory": ".",
+    "clientProject": "angular-seo-serverless",
+    "serverless": {
+      "aws": {},
+      "gcloud": {}
+    }
   }
 }
